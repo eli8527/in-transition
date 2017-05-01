@@ -44,9 +44,9 @@ void loop() {
   int fPressureValue = analogRead(fPressure); // CALIBRATE
   int bPressureValue = analogRead(bPressure); // CALIBRATE
 
-  Serial.print(fPressureValue);
-  Serial.print(",");
-  Serial.println(bPressureValue);
+//  Serial.print(fPressureValue);
+//  Serial.print(",");
+//  Serial.println(bPressureValue);
 
   // Handle movement
   while(Serial.available() > 0) {
@@ -79,6 +79,10 @@ void loop() {
     // just in case
     power = 0;
   }
+
+  Serial.print(directionState);
+  Serial.print(",");
+  Serial.println(power);
 
 }
 
