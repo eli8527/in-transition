@@ -1,0 +1,309 @@
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 2.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 3.0
+
+Raw: 68.0 14.0
+State: STATIONARY
+Position: 0
+Stationary Time: 4.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 5.0
+
+Raw: 0.0 579.0
+State: SITTING
+Position: 0
+Stationary Time: 6.0
+Seated Time:0.0
+
+
+Raw: 0.0 663.0
+State: SITTING
+Position: 0
+Stationary Time: 7.0
+Seated Time:1.0
+
+
+Raw: 1.0 741.0
+State: SITTING
+Position: 0
+Stationary Time: 8.0
+Seated Time:2.0
+
+
+Raw: 0.0 757.0
+State: SITTING
+Position: 0
+Stationary Time: 9.0
+Seated Time:3.0
+
+
+Raw: 0.0 731.0
+State: SITTING
+Position: 0
+Stationary Time: 10.0
+Seated Time:4.0
+
+
+Raw: 79.0 0.0
+State: MOVING
+Position: 0
+Next Position: 2
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 1
+Next Position: 2
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 2
+Next Position: 2
+Direction: FORWARD
+
+
+Raw: 87.0 0.0
+State: STATIONARY
+Position: 2
+Stationary Time: 0.0
+
+Raw: 9.0 0.0
+State: STATIONARY
+Position: 2
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 2
+Stationary Time: 2.0
+
+Raw: 71.0 1.0
+State: STATIONARY
+Position: 2
+Stationary Time: 3.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 2
+Stationary Time: 4.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 2
+Stationary Time: 5.0
+
+Raw: 67.0 1.0
+State: STATIONARY
+Position: 2
+Stationary Time: 6.0
+
+Raw: 0.0 71.0
+State: STATIONARY
+Position: 2
+Stationary Time: 7.0
+
+Raw: 13.0 0.0
+State: STATIONARY
+Position: 2
+Stationary Time: 8.0
+
+Raw: 969.0 965.0
+State: SITTING
+Position: 2
+Stationary Time: 10.0
+Seated Time:0.0
+
+
+Raw: 975.0 971.0
+State: SITTING
+Position: 2
+Stationary Time: 11.0
+Seated Time:1.0
+
+
+Raw: 920.0 967.0
+State: SITTING
+Position: 2
+Stationary Time: 12.0
+Seated Time:2.0
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 2
+Next Position: 4
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 3
+Next Position: 4
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 4
+Next Position: 4
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 4
+Stationary Time: 0.0
+
+Raw: 0.0 3.0
+State: STATIONARY
+Position: 4
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 4
+Stationary Time: 2.0
+
+Raw: 3.0 0.0
+State: STATIONARY
+Position: 4
+Stationary Time: 3.0
+
+Raw: 9.0 0.0
+State: STATIONARY
+Position: 4
+Stationary Time: 4.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 4
+Stationary Time: 5.0
+
+Raw: 0.0 11.0
+State: STATIONARY
+Position: 4
+Stationary Time: 6.0
+
+Raw: 980.0 55.0
+State: SITTING
+Position: 4
+Stationary Time: 7.0
+Seated Time:0.0
+
+
+Raw: 981.0 139.0
+State: SITTING
+Position: 4
+Stationary Time: 8.0
+Seated Time:1.0
+
+
+Raw: 982.0 131.0
+State: SITTING
+Position: 4
+Stationary Time: 9.0
+Seated Time:2.0
+
+
+Raw: 945.0 370.0
+State: SITTING
+Position: 4
+Stationary Time: 10.0
+Seated Time:3.0
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 4
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 3
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 2
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 1
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 0
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: -1
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: -2
+Next Position: -2
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -2
+Stationary Time: 0.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -2
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -2
+Stationary Time: 2.0
+
+Raw: 0.0 72.0
+State: STATIONARY
+Position: -2
+Stationary Time: 3.0
+
+Raw: 0.0 79.0
+State: STATIONARY
+Position: -2
+Stationary Time: 4.0
+
+Raw: 0.0 73.0
+State: STATIONARY
+Position: -2
+Stationary Time: 5.0

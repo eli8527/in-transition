@@ -21,10 +21,10 @@ class Bench:
         self.state = States.STATIONARY
         self.direction = Direction.STOP
         self.fPressureVal = 0
-        self.fPThresh = 50
+        self.fPThresh = 500
 
         self.bPressureVal = 0
-        self.bPThresh = 50
+        self.bPThresh = 500
         # self.power = 255
 
         self.pos = self.positions[0]
@@ -42,13 +42,13 @@ class Bench:
     def checkSitting(self):
         return self.fPressureVal > self.fPThresh or self.bPressureVal > self.bPThresh
 
-    def beginCounting(self):
+    def beginCount(self):
         self.startTime = time.mktime(time.localtime())
 
-    def beginSittingCounting(self):
+    def beginSittingCount(self):
         self.startSittingTime = time.mktime(time.localtime())
 
-    def stopCounting(self):
+    def stopCount(self):
         endTime =  time.mktime(time.localtime())
         st = endTime - self.startTime
         sst = endTime - self.startSittingTime
@@ -119,21 +119,22 @@ class Bench:
         if state == States.MOVING:
             if self.checkSitting():
                 self.state = States.SITTING
-                self.direction = Directions.STOP
+                self.direction = Direction.STOP
                 self.beginSittingCount()
-                self.beginCounting()
-                self.posIdx = self.addPosition(self.pos)
+                self.beginCount()
+                if self.posIdx not in self.Positions:
+                    self.posIdx = self.addPosition(self.pos)
 
             elif self.pos == self.nextPos:
-                self.direction = Directions.STOP
+                self.direction = Direction.STOP
                 self.state = States.STATIONARY
-                self.beginCounting()
+                self.beginCount()
                 self.posIdx = self.nextPosIdx
 
             else:
-                if self.direction == Directions.FORWARD:
+                if self.direction == Direction.FORWARD:
                     self.pos = self.pos + 1
-                elif self.direction == Directions.BACKWARD:
+                elif self.direction == Direction.BACKWARD:
                     self.pos = self.pos - 1
 
         elif state == States.STATIONARY:
@@ -143,15 +144,16 @@ class Bench:
 
         elif state == States.SITTING:
             if not self.checkSitting():
-                reward = self.stopCounting()
+                reward = self.stopCount()
+                print "Reward: " + str(reward)
                 self.ucb.update(self.posIdx, reward)
                 self.nextPosIdx = self.ucb.select_arm()
                 self.nextPos = self.positions[self.nextPosIdx]
 
                 if self.nextPos > self.pos:
-                    self.direction = Directions.FORWARD
+                    self.direction = Direction.FORWARD
                 elif self.nextPos < self.pos:
-                    self.direction = Directions.BACKWARD
+                    self.direction = Direction.BACKWARD
 
                 self.state = States.MOVING
 
@@ -160,20 +162,27 @@ class Bench:
 
 def main():
     # Arduino serial port
-    # ser = serial.Serial('/dev/cu.usbmodem1411', 9600)
+    ser = serial.Serial('/dev/cu.usbmodem1411', 9600)
 
-    bench = Bench([0, 1, 2])
-
+    bench = Bench([0, 3, 6, -3, -6])
+    before = time.mktime(time.localtime())
     while True:
 
-        # updateStr = ser.readline()
-        # update = updateStr.split(",")
-        # update[0] = float(update[0])
-        # update[1] = float(update[1])
-        update = [0,0]
-        msg = bench.step(update)
-        # serial.write(msg)
-        time.sleep(1)
+        updateStr = ser.readline()
+        # print updateStr
+
+        now = time.mktime(time.localtime())
+
+        if now - before >= 1:
+            before = now
+
+            update = updateStr.split(",")
+            update[0] = float(update[0])
+            update[1] = float(update[1])
+            print "Raw: " + str(update[0]) + " " + str(update[1])
+            # update = [0,0]
+            msg = bench.step(update)
+            ser.write(msg)
 
 
 if __name__ == "__main__":

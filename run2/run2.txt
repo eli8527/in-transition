@@ -1,0 +1,375 @@
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 2.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 3.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 4.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 0
+Stationary Time: 5.0
+
+Raw: 0.0 958.0
+State: SITTING
+Position: 0
+Stationary Time: 6.0
+Seated Time:0.0
+
+
+Raw: 0.0 975.0
+State: SITTING
+Position: 0
+Stationary Time: 7.0
+Seated Time:1.0
+
+
+Raw: 0.0 978.0
+State: SITTING
+Position: 0
+Stationary Time: 8.0
+Seated Time:2.0
+
+
+Raw: 31.0 975.0
+State: SITTING
+Position: 0
+Stationary Time: 9.0
+Seated Time:3.0
+
+
+Raw: 0.0 0.0
+Reward: 0.4
+State: MOVING
+Position: 0
+Next Position: 3
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 1
+Next Position: 3
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 2
+Next Position: 3
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 3
+Next Position: 3
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 0.0
+
+Raw: 17.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 2.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 3.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 4.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 5.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 6.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 3
+Stationary Time: 7.0
+
+Raw: 11.0 963.0
+State: SITTING
+Position: 3
+Stationary Time: 8.0
+Seated Time:0.0
+
+
+Raw: 0.0 995.0
+State: SITTING
+Position: 3
+Stationary Time: 9.0
+Seated Time:1.0
+
+
+Raw: 0.0 982.0
+State: SITTING
+Position: 3
+Stationary Time: 10.0
+Seated Time:2.0
+
+
+Raw: 0.0 982.0
+State: SITTING
+Position: 3
+Stationary Time: 11.0
+Seated Time:3.0
+
+
+Raw: 0.0 0.0
+Reward: 0.333333333333
+State: MOVING
+Position: 3
+Next Position: 6
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 4
+Next Position: 6
+Direction: FORWARD
+
+
+Raw: 3.0 0.0
+State: MOVING
+Position: 5
+Next Position: 6
+Direction: FORWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 6
+Next Position: 6
+Direction: FORWARD
+
+
+Raw: 0.0 199.0
+State: STATIONARY
+Position: 6
+Stationary Time: 0.0
+
+Raw: 48.0 14.0
+State: STATIONARY
+Position: 6
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 6
+Stationary Time: 2.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 6
+Stationary Time: 3.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: 6
+Stationary Time: 4.0
+
+Raw: 31.0 0.0
+State: STATIONARY
+Position: 6
+Stationary Time: 5.0
+
+Raw: 0.0 934.0
+State: SITTING
+Position: 6
+Stationary Time: 6.0
+Seated Time:0.0
+
+
+Raw: 0.0 967.0
+State: SITTING
+Position: 6
+Stationary Time: 7.0
+Seated Time:1.0
+
+
+Raw: 203.0 936.0
+State: SITTING
+Position: 6
+Stationary Time: 8.0
+Seated Time:2.0
+
+
+Raw: 0.0 976.0
+State: SITTING
+Position: 6
+Stationary Time: 9.0
+Seated Time:3.0
+
+
+Raw: 0.0 977.0
+State: SITTING
+Position: 6
+Stationary Time: 10.0
+Seated Time:4.0
+
+
+Raw: 0.0 991.0
+State: SITTING
+Position: 6
+Stationary Time: 11.0
+Seated Time:5.0
+
+
+Raw: 479.0 948.0
+State: SITTING
+Position: 6
+Stationary Time: 12.0
+Seated Time:6.0
+
+
+Raw: 812.0 907.0
+State: SITTING
+Position: 6
+Stationary Time: 13.0
+Seated Time:7.0
+
+
+Raw: 0.0 0.0
+Reward: 0.571428571429
+State: MOVING
+Position: 6
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 1.0
+State: MOVING
+Position: 5
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 4
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 3
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 2
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 1
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: 0
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 0.0
+State: MOVING
+Position: -1
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 69.0 0.0
+State: MOVING
+Position: -2
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 2.0 0.0
+State: MOVING
+Position: -3
+Next Position: -3
+Direction: BACKWARD
+
+
+Raw: 0.0 11.0
+State: STATIONARY
+Position: -3
+Stationary Time: 0.0
+
+Raw: 0.0 95.0
+State: STATIONARY
+Position: -3
+Stationary Time: 1.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -3
+Stationary Time: 2.0
+
+Raw: 26.0 5.0
+State: STATIONARY
+Position: -3
+Stationary Time: 3.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -3
+Stationary Time: 4.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -3
+Stationary Time: 5.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -3
+Stationary Time: 6.0
+
+Raw: 0.0 0.0
+State: STATIONARY
+Position: -3
+Stationary Time: 7.0
+
+Raw: 31.0 1.0
+State: STATIONARY
+Position: -3
+Stationary Time: 8.0
